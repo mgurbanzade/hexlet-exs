@@ -17,4 +17,4 @@ const dnaToRna = (dna) => {
   return rna.join('');
 }
 
-dnaToRna('ACGTGGTCTTAA');
+console.log(dnaToRna('ACGTGGTCTTAA'));
