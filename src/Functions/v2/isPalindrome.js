@@ -12,5 +12,4 @@ const isPalindrome = (str) => {
   return isPalindrome(nextString);
 };
 
-console.log(isPalindrome('aibohphobia'))
-console.log(isPalindrome('radar'))
+export default isPalindrome;
