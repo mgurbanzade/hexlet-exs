@@ -86,15 +86,15 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/Functions/v2/isPalindrome.js":
-/*!******************************************!*\
-  !*** ./src/Functions/v2/isPalindrome.js ***!
-  \******************************************/
+/***/ "./src/Functions/v2/substr.js":
+/*!************************************!*\
+  !*** ./src/Functions/v2/substr.js ***!
+  \************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nvar substr = function substr(str, start, size) {\n  return str.substr(start, size);\n};\n\nvar isPalindrome = function isPalindrome(str) {\n  var firstLetter = substr(str, 0, 1);\n  var lastLetter = substr(str, str.length - 1, 1);\n\n  if (firstLetter != lastLetter) return false;\n  if (str.length <= 2) return true;\n\n  var nextString = substr(str, 1, str.length - 2);\n\n  return isPalindrome(nextString);\n};\n\nexports.default = isPalindrome;\n\n//# sourceURL=webpack:///./src/Functions/v2/isPalindrome.js?");
+eval("\n\nvar substr = function substr(str) {\n  var start = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;\n  var length = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : str.length;\n\n  if (length < 0) length = 1;\n  if (start >= str.length || str === '' || length === 0) return '';\n  if (start + length >= str.length) length = str.length - start;\n  if (start < 0) start = 0;\n  var result = str[start];\n\n  for (var i = start + 1; i <= length; i += 1) {\n    if (result.length < length && str[i] !== undefined) result = '' + result + str[i];\n  }\n\n  return result;\n};\n\nconsole.log(substr('')); // => ''\nconsole.log(substr('abba')); // => abba\nconsole.log(substr('abba', 0, 1)); // => a\nconsole.log(substr('abba', 1, 2)); // => bb\nconsole.log(substr('abba', -10, 2)); // => ab\nconsole.log(substr('abba', -1, 100)); // => abba\nconsole.log(substr('abba', -1, -1)); // => a\nconsole.log(substr('abba', 1, -10)); // => b\nconsole.log(substr('abba', 1, 10)); // => bba\nconsole.log(substr('abba', 1, 0)); // => ''\nconsole.log(substr('abba', 100, 3)); // => ''\n\n//# sourceURL=webpack:///./src/Functions/v2/substr.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _isPalindrome = __webpack_require__(/*! ./Functions/v2/isPalindrome.js */ \"./src/Functions/v2/isPalindrome.js\");\n\nvar _isPalindrome2 = _interopRequireDefault(_isPalindrome);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nvar _substr = __webpack_require__(/*! ./Functions/v2/substr.js */ \"./src/Functions/v2/substr.js\");\n\nvar _substr2 = _interopRequireDefault(_substr);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
