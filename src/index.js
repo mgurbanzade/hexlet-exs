@@ -1,1 +1,1 @@
-import isPalindrome from './Functions/v2/isPalindrome.js';
+import substr from './Functions/v2/substr.js';
