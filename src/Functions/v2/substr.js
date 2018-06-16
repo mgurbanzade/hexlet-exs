@@ -1,14 +1,12 @@
 const substr = (str, start = 0, length = str.length) => {
-  if (str === '') return '';
-  if (start < 0) start = 0;
   if (length < 0) length = 1;
-  if (length > str.length) length = str.length;
-  if (length === 0 || start > length) return '';
-  if (start + length - 1 > length) length = str.length - start;
+  if ((start >= str.length) || (str === '') || (length === 0)) return '';
+  if (start + length >= str.length) length = str.length - start;
+  if (start < 0) start = 0;
   let result = str[start];
 
-  for (let i = start + 1; i < length; i += 1) {
-    result = `${result}${str[i]}`;
+  for (let i = start + 1; i <= length; i += 1) {
+    if (result.length < length && str[i] !== undefined) result = `${result}${str[i]}`;
   }
 
   return result;
