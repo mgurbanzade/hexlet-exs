@@ -1,1 +1,1 @@
-import apply from './Functions/v2/apply.js';
+import partialApply from './Functions/v2/partialApply.js';
