@@ -1,1 +1,1 @@
-import partialApply from './Functions/v2/partialApply.js';
+import { If, True, False } from './Functions/v2/currying.js';
