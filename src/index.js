@@ -1,1 +1,1 @@
-import { If, True, False } from './Functions/v2/currying.js';
+import compose from './Functions/v2/compose.js';
