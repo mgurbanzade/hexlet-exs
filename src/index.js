@@ -1,1 +1,1 @@
-import compose from './Functions/v2/compose.js';
+import concat from './Functions/v2/concat.js';
