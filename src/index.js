@@ -1,1 +1,1 @@
-import concat from './Functions/v2/concat.js';
+import { has, reverse, concat } from './Sequences/list.js';
