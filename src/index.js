@@ -1,1 +1,1 @@
-import { has, reverse, concat } from './Sequences/list.js';
+import { map } from './Sequences/map.js';

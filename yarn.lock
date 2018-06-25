@@ -3219,7 +3219,17 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.0"
 
-hexlet-pairs-data@^1.0.8:
+hexlet-html-tags@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/hexlet-html-tags/-/hexlet-html-tags-0.2.8.tgz#aa28550efb47d9b4f8fff7e2b21309cf7258d8ad"
+  dependencies:
+    babel-preset-env "*"
+    babel-preset-flow "*"
+    babel-preset-stage-0 "*"
+    hexlet-pairs "*"
+    hexlet-pairs-data "*"
+
+hexlet-pairs-data@*, hexlet-pairs-data@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/hexlet-pairs-data/-/hexlet-pairs-data-1.0.8.tgz#073f0de9f285bfbedac2564f20a5f86df5de111e"
   dependencies:
@@ -3228,7 +3238,7 @@ hexlet-pairs-data@^1.0.8:
     babel-preset-stage-0 "*"
     hexlet-pairs "^1.0.7"
 
-hexlet-pairs@^1.0.7, hexlet-pairs@^1.0.8:
+hexlet-pairs@*, hexlet-pairs@^1.0.7, hexlet-pairs@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/hexlet-pairs/-/hexlet-pairs-1.0.8.tgz#1b705c076630899e4fc9ea067b48fbf16735def3"
 
