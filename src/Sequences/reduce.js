@@ -1,5 +1,5 @@
 import { isEmpty, head, tail, toString as listToString } from 'hexlet-pairs-data'; // eslint-disable-line
-import { value, make, append, filter, node, is, toString as htmlToString } from 'hexlet-html-tags'; // eslint-disable-line
+import { value, is, toString as htmlToString } from 'hexlet-html-tags'; // eslint-disable-line
 
 export const reduce = (func, acc, dom) => {
   if (isEmpty(dom)) return acc;
@@ -11,7 +11,7 @@ export const reduce = (func, acc, dom) => {
 
 export const emptyTagsCount = (tag, dom) => {
   const f = ((element, acc) => is(tag, element) ? value(element) === '' : false);
-  const reducedDom = reduce(f, 0, dom);
+  return reduce(f, 0, dom);
 };
 
 // export const reduce = (func, acc, elements) => {
