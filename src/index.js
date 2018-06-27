@@ -1,1 +1,1 @@
-import { emptyTagsCount } from './Sequences/reduce.js';
+import { wordsCount } from './Sequences/interfaces.js';
