@@ -1,1 +1,1 @@
-import { wordsCount } from './Sequences/interfaces.js';
+import { wordsCount } from './Sequences/hierarchy.js';

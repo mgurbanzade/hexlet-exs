@@ -11,7 +11,7 @@ export const extractHeaders = (dom) => {
 
 export const wordsCount = (tag, word, dom) => {
   let count = 0;
-  const f = (el, acc) => is(tag, el) ? a += wc(word, value(el)) : 0;
+  const f = (el, acc) => is(tag, el) ? count += wc(word, value(el)) : 0;
   const filteredDom = reduce(f, 0, dom);
   return count;
 };
