@@ -1,1 +1,1 @@
-import flatten from './Sequences/flatten.js';
+import qsort from './Sequences/qsort.js';
