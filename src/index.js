@@ -1,1 +1,1 @@
-import union from './Sequences/union.js';
+import sameParity from './Sequences/sameParity.js';
