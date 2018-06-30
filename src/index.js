@@ -1,1 +1,1 @@
-import { wordsCount } from './Sequences/hierarchy.js';
+import union from './Sequences/union.js';
