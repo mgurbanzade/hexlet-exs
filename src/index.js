@@ -1,1 +1,1 @@
-import sameParity from './Sequences/sameParity.js';
+import take from './Sequences/take.js';
