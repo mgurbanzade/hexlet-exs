@@ -1,1 +1,1 @@
-import take from './Sequences/take.js';
+import flatten from './Sequences/flatten.js';
