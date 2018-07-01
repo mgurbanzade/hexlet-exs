@@ -15,11 +15,11 @@ export const emptyTagsCount = (tag, dom) => {
 };
 
 // export const reduce = (func, acc, elements) => {
-//   if (isEmpty(elements)) {
-//     return acc;
-//   }
+  // if (isEmpty(elements)) {
+  //   return acc;
+  // }
 
-//   return reduce(func, func(head(elements), acc), tail(elements));
+  // return reduce(func, func(head(elements), acc), tail(elements));
 // };
 
 // export const emptyTagsCount = (tagName, elements) => {
