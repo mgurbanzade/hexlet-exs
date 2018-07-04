@@ -1,1 +1,1 @@
-import qsort from './Sequences/isSafeQueens.js';
+import select from './Sequences/select.js';
