@@ -1,0 +1,14 @@
+plugins:
+  - babel
+
+env:
+  node: true
+  browser: false
+
+parser: babel-eslint
+
+extends:
+  - 'airbnb-base'
+
+rules:
+  no-console: 0
