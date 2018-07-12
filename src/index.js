@@ -1,1 +1,1 @@
-import wordsCount from './Collections/wordsCount.js';
+import without from './Collections/without.js';
