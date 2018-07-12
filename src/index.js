@@ -1,1 +1,2 @@
-import difference from './Collections/difference.js';
+import intersection from './Collections/intersection.js';
+
