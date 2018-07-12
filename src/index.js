@@ -1,1 +1,1 @@
-import uniq from './Collections/uniq.js';
+import wordsCount from './Collections/wordsCount.js';
