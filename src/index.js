@@ -1,2 +1,2 @@
-import intersection from './Collections/intersection.js';
+import setDifference from './Collections/setDifference.js';
 
