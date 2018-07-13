@@ -1,2 +1,2 @@
-import setDifference from './Collections/setDifference.js';
+import Enumerable from './Collections/enumerable.js';
 
