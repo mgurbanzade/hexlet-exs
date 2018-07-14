@@ -1,2 +1,2 @@
-import Enumerable from './Collections/enumerable.js';
+import numberGenerator from './DDP/numberGenerator.js';
 
