@@ -1,2 +1,2 @@
-import numberGenerator from './DDP/numberGenerator.js';
+import memorize from './Collections/memorize.js';
 
