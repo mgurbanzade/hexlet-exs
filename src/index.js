@@ -1,2 +1,1 @@
-import memorize from './Collections/memorize.js';
-
+import objectify from './Collections/objectify.js';
