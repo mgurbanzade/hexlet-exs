@@ -1,1 +1,1 @@
-import objectify from './Collections/objectify.js';
+import getCarsCountByYear from './Collections/getCarsCountByYear.js';
