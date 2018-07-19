@@ -1,1 +1,1 @@
-import fromPairs from './Collections/fromPairs.js';
+import bqs from './Collections/buildQueryString.js';
