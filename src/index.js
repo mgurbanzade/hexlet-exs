@@ -1,1 +1,1 @@
-import getCarsCountByYear from './Collections/getCarsCountByYear.js';
+import fromPairs from './Collections/fromPairs.js';
