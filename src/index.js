@@ -1,1 +1,1 @@
-import bqs from './Collections/buildQueryString.js';
+import findOdd from './Collections/findOdd.js';
