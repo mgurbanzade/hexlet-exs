@@ -2,6 +2,7 @@ const findOdd = (arr) => {
   const prepareResult = arr.map(el1 => {
     return arr.filter(el2 => el2 === el1);
   });
+
   const result = prepareResult.filter(el => el.length % 2 !== 0);
   return result[0][0];
 };

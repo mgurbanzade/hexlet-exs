@@ -1,1 +1,1 @@
-import findOdd from './Collections/findOdd.js';
+import findIndexOfNearest from './Collections/findIndexOfNearest.js';
