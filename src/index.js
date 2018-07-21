@@ -1,1 +1,1 @@
-import findIndexOfNearest from './Collections/findIndexOfNearest.js';
+import enlargeArrayImage from './Collections/enlargeArrayImage.js';
