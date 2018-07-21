@@ -1,1 +1,1 @@
-import enlargeArrayImage from './Collections/enlargeArrayImage.js';
+import chunk from './Collections/chunk.js';
