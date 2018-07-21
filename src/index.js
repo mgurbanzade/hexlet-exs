@@ -1,1 +1,1 @@
-import chunk from './Collections/chunk.js';
+import nrzi from './Collections/nrzi.js';
