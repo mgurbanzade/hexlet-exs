@@ -1,1 +1,1 @@
-import downcaseFileNames from './Trees/downcaseFileNames.js';
+import map from './Trees/map.js';
