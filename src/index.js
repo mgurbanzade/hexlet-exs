@@ -1,1 +1,1 @@
-import nrzi from './Collections/nrzi.js';
+import isBracketStructureBalanced from './Collections/isBracketStructureBalanced.js';
