@@ -1,1 +1,1 @@
-import filter from './Trees/filter.js';
+import reduce from './Trees/reduce.js';
