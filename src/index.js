@@ -1,1 +1,1 @@
-import reduce from './Trees/reduce.js';
+import search from './Trees/search.js';
