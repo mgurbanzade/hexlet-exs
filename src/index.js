@@ -1,1 +1,1 @@
-import du from './Trees/du.js';
+import flatten from './Trees/flatten.js';
