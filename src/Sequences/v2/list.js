@@ -53,3 +53,30 @@ const numbers5 = l(3, 2, 9);
 console.log(listToString(concat(numbers4, numbers5))) // '(3, 4, 5, 8, 3, 2, 9)'
 console.log(listToString(concat(numbers4, l()))) // '(3, 4, 5, 8)'
 console.log(listToString(concat(l(), numbers5))) // '(3, 2, 9)'
+
+
+// export const has = (list, element) => {
+//   if (isEmpty(list)) {
+//     return false;
+//   }
+//   if (head(list) === element) {
+//     return true;
+//   }
+
+//   return has(tail(list), element);
+// };
+
+// export const reverse = (list) => {
+//   const iter = (items, acc) =>
+//     (isEmpty(items) ? acc : iter(tail(items), cons(head(items), acc)));
+
+//   return iter(list, l());
+// };
+
+// export const concat = (list1, list2) => {
+//   if (isEmpty(list1)) {
+//     return list2;
+//   }
+
+//   return cons(head(list1), concat(tail(list1), list2));
+// };
