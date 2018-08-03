@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode development",
-    "eslint": "eslint"
+    "eslint": "eslint",
+    "test": "jest"
+  },
+  "jest": {
+    "testURL": "http://localhost/"
   },
   "repository": {
     "type": "git",
@@ -20,27 +24,30 @@
   "homepage": "https://github.com/mgurbanzade/hexlet-exs#readme",
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.51",
-    "@babel/core": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.55",
     "@babel/node": "^7.0.0-beta.51",
     "@babel/preset-env": "^7.0.0-beta.51",
     "babel-cli": "^7.0.0-beta.3",
-    "babel-core": "^7.0.0-beta.3",
+    "babel-core": "^7.0.0-0",
     "babel-eslint": "*",
+    "babel-jest": "^23.4.2",
     "babel-loader": "^8.0.0-beta.4",
     "babel-preset-env": "^7.0.0-beta.3",
     "babel-preset-stage-3": "^6.24.1",
-    "hexlet-html-tags": "^0.2.8",
-    "hexlet-pairs-data": "^1.0.8",
-    "hexlet-immutable-fs-trees": "*",
-    "lodash": "*",
-    "path": "^0.12.7",
-    "webpack": "^4.12.0",
-    "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.1.4",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-babel": "^5.1.0",
-    "eslint-plugin-import": "^2.10.0"
+    "eslint-plugin-import": "^2.10.0",
+    "hexlet-html-tags": "^0.2.8",
+    "hexlet-immutable-fs-trees": "*",
+    "hexlet-pairs-data": "^1.0.8",
+    "jest": "^23.4.2",
+    "lodash": "*",
+    "path": "^0.12.7",
+    "regenerator-runtime": "^0.12.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
     "hexlet-pairs": "^1.0.8"
