@@ -1,1 +1,3 @@
-import list from './Sequences/v2/list.js';
+import htmlTags from './Sequences/v2/html-tags.js';
+
+
