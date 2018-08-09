@@ -1,3 +1,3 @@
-import map from './Sequences/v2/map.js';
+import interfaces from './Sequences/v2/interfaces.js';
 
 
