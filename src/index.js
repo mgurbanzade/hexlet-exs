@@ -1,3 +1,3 @@
-import interfaces from './Sequences/v2/interfaces.js';
+import select from './Sequences/v2/select.js';
 
 
